@@ -1,0 +1,2 @@
+https://4a7c36732de5.ngrok.io/php_ass_6/guess.php
+ngrok http 80

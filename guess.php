@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>KONTANTINOS KORONIDIS Guessing Game</title>
+<title>KONTANTINOS KORONIDIS 7d27defa Guessing Game</title>
 </head>
 <body>
 <h1>Welcome to my guessing game</h1>
@@ -12,9 +12,9 @@
     echo("Your guess is too short");
   } else if ( ! is_numeric($_GET['guess']) ) {
     echo("Your guess is not a number");
-  } else if ( $_GET['guess'] < 42 ) {
+  } else if ( $_GET['guess'] < 39 ) {
     echo("Your guess is too low");
-  } else if ( $_GET['guess'] > 42 ) {
+  } else if ( $_GET['guess'] > 39 ) {
     echo("Your guess is too high");
   } else {
     echo("Congratulations - You are right");
